@@ -5,8 +5,6 @@ Install the **Linux-Docker** package with :
 ```sh
 yum install wget
 ```
-
-
 ```sh
 cd /etc/yum.repos.d/ 
 ```
@@ -45,10 +43,13 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
 gpgcheck=1
 enabled=1
 ```
+## Next you simply use yum install to start the installation.
 
 ```sh
 yum install docker-engine
 ```
+
+## Once the installation is completed, you start the docker service.
 ```sh
 systemctl start docker
 ```
