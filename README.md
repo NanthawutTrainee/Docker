@@ -109,5 +109,5 @@ docker ps
 ## Connect to SQL Server
 Use the docker exec -it command to start an interactive bash shell inside your running container. In the following example sql1 is name specified by the --name parameter when you created the container.
 ```sh
-sudo docker exec -it sql1 "bsah"
+sudo docker exec -it sql1 "bash"
 ```
