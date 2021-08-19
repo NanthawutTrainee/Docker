@@ -58,7 +58,7 @@ systemctl start docker
 systemctl enable docker
 ```
 ```sh
-systemctl stsemctl docker
+systemctl status docker
 ```
 
 ## Add Node.js Yum Repository
@@ -70,7 +70,7 @@ First of all, You need to enable node.js yum repository in your system provided 
 yum install -y gcc c++ make
 ```
 ```sh
-curl -sL https://rpm.nodesoure.com/setup_14.x | sudo -E bash -
+curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
 ```
 ## Install Node.js on CentOS
 ```sh
