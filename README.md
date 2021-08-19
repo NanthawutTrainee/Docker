@@ -3,10 +3,11 @@
 Install the **Linux-Docker** package with :
 
 ```sh
-yum install wget
-```
-```sh
 cd /etc/yum.repos.d/ 
+```
+
+```sh
+yum install wget
 ```
 ```sh
 mkdir bak
